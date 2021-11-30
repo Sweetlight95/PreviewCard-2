@@ -1,0 +1,68 @@
+body {background-color: hsl(217, 54%, 11%);
+}
+.equilibrium {
+    background-color: hsl(216, 50%, 16%);
+    margin: 100px 32rem;
+    width: 25vw;
+    height: 32rem;
+    border-top-left-radius: 00.4rem;
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+}
+#eqil {
+  margin: 18px 1.7rem;
+  height: 15rem;
+  width: 18rem;
+  border-top-left-radius: 00.4rem;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+}
+.obj_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -1rem;
+}
+.text {
+    margin-left: 2rem;
+    position: relative;
+    bottom: 1rem;
+}
+.text h4 {
+    color: white;
+}
+.text p {
+    color: hsl(215, 51%, 70%);
+
+}
+.etum {
+    margin-right: 4rem;
+}
+.etum span{
+    color: hsl(178, 100%, 50%);
+}
+.clock span {
+    color: hsl(215, 51%, 70%);
+}
+footer span {
+    color: hsl(220, 5%, 88%);
+}
+footer p{
+    color: hsl(215, 51%, 70%);
+}
+footer img {
+    width: 3rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+footer p{
+    position:relative;
+    left: 7rem;
+    bottom: 3.2rem
+}
+hr {
+    width: 17rem;
+    color: hsl(216, 50%, 16%);
+    margin-top: 0.8rem;
+}
