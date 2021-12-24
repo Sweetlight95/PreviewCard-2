@@ -2,7 +2,7 @@ body {background-color: hsl(217, 54%, 11%);
 }
 .equilibrium {
     background-color: hsl(216, 50%, 16%);
-    margin: 100px 32rem;
+    margin: 60px 32rem;
     width: 25vw;
     height: 32rem;
     border-top-left-radius: 00.4rem;
@@ -34,7 +34,6 @@ body {background-color: hsl(217, 54%, 11%);
 }
 .text p {
     color: hsl(215, 51%, 70%);
-
 }
 .etum {
     margin-right: 4rem;
@@ -65,4 +64,42 @@ hr {
     width: 17rem;
     color: hsl(216, 50%, 16%);
     margin-top: 0.8rem;
+}
+
+
+@media (max-width : 812px) {
+    .equilibrium {
+        width: 19rem;
+        height: 27rem;
+        margin: 110px 55px;
+    }
+    .equilibrium #eqil {
+        margin: 16px 1.6rem;
+        height: 10rem;
+        width: 16rem;
+    }
+    hr {
+        width: 16rem;
+        background-color: hsl(216, 50%, 16%);
+        margin-top: 0.8rem;
+    }
+    footer img {
+        margin-left: 2.2rem;
+        margin-top: -0.1rem;
+    }
+    footer p{
+        position:relative;
+        left: 6rem;
+        bottom: 3.2rem;
+        font-size: 16px;
+    }
+    .text p {
+       font-size: 17px;
+    }
+    .etum span{
+       font-size: 15px;
+    }
+    .clock span {
+        font-size: 15px;
+    }
 }
